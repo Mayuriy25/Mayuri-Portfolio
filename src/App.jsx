@@ -1,24 +1,25 @@
 
 import './App.css'
 
+
 const projects = [
   {
     number: '01',
-    name: 'Batchify',
-    category: 'WEB APPLICATION',
+    name: 'Tandav',
+    category: 'SAAS WEB APPLICATION',
     description:
-      'A delivery-order batching project focused on organizing orders and improving delivery workflow.',
-    technologies: ['React', 'JavaScript', 'CSS'],
-    github: 'https://github.com/Mayuriy25/Batchify',
-    demo: '',
+      'A SaaS web application focused on business management, featuring interactive dashboard interfaces and user authentication. Contributing to frontend development and application functionality.',
+    technologies: ['React', 'JavaScript', 'Node.js', 'MongoDB'],
+    github: '',
+    demo: 'https://tandavv.in/',
   },
   {
     number: '02',
     name: 'PrepPilot',
     category: 'PERSONAL PROJECT',
     description:
-      'An interview preparation project designed to support structured practice and career preparation.',
-    technologies: ['React', 'JavaScript'],
+      'An interview preparation and job-tracking platform designed to streamline career preparation through skill roadmaps, interview practice, mock interviews, and progress tracking.',
+    technologies: ['React', 'JavaScript', 'CSS'],
     github: 'https://github.com/Mayuriy25/Prepilot',
     demo: '',
   },
@@ -27,8 +28,8 @@ const projects = [
     name: 'IoT Robotic Arm',
     category: 'ACADEMIC PROJECT',
     description:
-      'An academic project combining a robotic arm, sensors, and machine learning.',
-    technologies: ['IoT', 'Sensors', 'Machine Learning'],
+      'An academic project combining a robotic arm, MPU9250 sensors, and machine-learning techniques for motion control and position monitoring.',
+    technologies: ['IoT', 'MPU9250', 'Machine Learning'],
     github: '',
     demo: 'https://drive.google.com/file/d/1DxTBP78f3ye-u7OWvSjwgwvSuaFIdip3/view?usp=drive_link',
   },
